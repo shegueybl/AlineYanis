@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Portfolio de Yanis Allyn, étudiant en Système Réseau Informatique à Lomé : projets Java, JavaScript, SQL et Linux.">
+<title>Portfolio Yanis Allyn</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="#accueil" aria-label="Accueil"><span>~/</span>yanis-allyn</a>
+    <nav class="nav" aria-label="Navigation principale">
+      <a class="lnk" href="#apropos">à propos</a>
+      <a class="lnk" href="#competences">compétences</a>
+      <a class="lnk" href="#projets">projets</a>
+      <a class="lnk" href="#parcours">parcours</a>
+      <a class="lnk" href="#contact">contact</a>
+      <button class="icon-btn" id="theme" type="button" aria-label="Changer de thème">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 3.5v17a8.5 8.5 0 0 0 0-17z" fill="currentColor"/></svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="hero" id="accueil">
+    <div class="hero-grid-bg"></div>
+    <div class="wrap">
+      <div>
+        <span class="status"><i></i>Disponible · stage ou alternance</span>
+        <h1>Yanis Allyn<em>étudiant en systèmes &amp; réseaux</em></h1>
+        <p class="lead">Étudiant en 2ᵉ année de Système, Réseau et Informatique à Lomé. J'aime comprendre comment fonctionnent les <b>réseaux</b> et les <b>systèmes Linux</b>, et écrire du code en <b>Java</b> et <b>JavaScript</b> pour les exploiter.</p>
+        <div class="cta">
+          <a class="btn primary" href="#projets">Voir mes projets <span aria-hidden="true">→</span></a>
+          <a class="btn" href="#contact">Me contacter</a>
+        </div>
+      </div>
+
+      <div class="code" role="img" aria-label="Extrait de code résumant le profil : cursus Système Réseau Informatique, centres d'intérêt réseaux, systèmes et web, langages Java, JavaScript et SQL.">
+        <div class="code-bar"><span class="dots"><i></i><i></i><i></i></span><span>profil.ts</span></div>
+        <pre><code><span class="l"><span class="k">const</span> profil = {</span><span class="l">  <span class="p">nom</span>: <span class="s">"Yanis Allyn"</span>,</span><span class="l">  <span class="p">cursus</span>: <span class="s">"SRI, 2e année"</span>,</span><span class="l">  <span class="p">focus</span>: [<span class="s">"réseaux"</span>, <span class="s">"systèmes"</span>, <span class="s">"web"</span>],</span><span class="l">  <span class="p">langages</span>: [<span class="s">"Java"</span>, <span class="s">"JavaScript"</span>,</span><span class="l">    <span class="s">"SQL"</span>],</span><span class="l">  <span class="p">curieux</span>: <span class="k">true</span>,</span><span class="l">  <span class="p">recherche</span>: <span class="s">"stage / alternance"</span>,</span><span class="l">};</span><span class="l"> </span><span class="l"><span class="c">// git commit -m "prêt à coder"</span></span><span class="l"><span class="k">export default</span> profil;<span class="cur"></span></span></code></pre>
+      </div>
+    </div>
+  </div>
+
+  <section id="apropos">
+    <div class="wrap about">
+      <div>
+        <span class="label">/* à propos */</span>
+        <h2>Du code, de la méthode, <em>beaucoup de curiosité.</em></h2>
+        <div class="text">
+          <p>Étudiant en filière <b>Système, Réseau et Informatique</b> à l'ESIG Global Success, à Lomé, j'aime comprendre ce qui se passe sous le capot : <b>configuration Linux, communication réseau, bases de données</b>.</p>
+          <p>Je développe en <b>Java</b> et en <b>JavaScript</b> (Node.js), j'interroge mes données en <b>SQL</b>, et je préfère une solution simple et lisible à une astuce compliquée.</p>
+          <p>Je cherche un stage pour mettre en pratique mes acquis en administration système et réseau, et continuer à apprendre sur le terrain.</p>
+        </div>
+      </div>
+      <dl class="fiche">
+        <div><dt>cursus</dt><dd>Système Réseau Informatique, 2ᵉ année</dd></div>
+        <div><dt>école</dt><dd>ESIG Global Success</dd></div>
+        <div><dt>lieu</dt><dd>Lomé, Togo</dd></div>
+        <div><dt>langues</dt><dd>Français</dd></div>
+        <div><dt>intérêts</dt><dd>Réseaux, systèmes Linux, développement web</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section id="competences">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="label">/* compétences */</span>
+        <h2>Ma boîte à outils</h2>
+      </div>
+      <div class="skills">
+        <div class="skill-row">
+          <h3>langages</h3>
+          <ul class="chips"><li>Java</li><li>JavaScript</li><li>SQL</li></ul>
+        </div>
+        <div class="skill-row">
+          <h3>web</h3>
+          <ul class="chips"><li>HTML</li><li>CSS</li><li>Node.js</li></ul>
+        </div>
+        <div class="skill-row">
+          <h3>données</h3>
+          <ul class="chips"><li>SQL</li></ul>
+        </div>
+        <div class="skill-row">
+          <h3>systèmes &amp; réseaux</h3>
+          <ul class="chips"><li>Linux</li></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projets">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="label">/* projets */</span>
+        <h2>Ce que j'ai construit</h2>
+      </div>
+      <div class="filters" role="group" aria-label="Filtrer les projets">
+        <button type="button" data-f="all" aria-pressed="true">tous</button>
+        <button type="button" data-f="web" aria-pressed="false">web</button>
+        <button type="button" data-f="data" aria-pressed="false">données</button>
+        <button type="button" data-f="systeme" aria-pressed="false">système</button>
+        <button type="button" data-f="reseau" aria-pressed="false">réseau</button>
+      </div>
+      <div class="projects">
+        <article class="card" data-cat="web">
+          <div class="card-top"><span>~/projets/taskflow</span><span class="cat">web</span></div>
+          <h3>Taskflow</h3>
+          <p>Application web de gestion de tâches : création, suivi et échéances, avec un serveur Node.js et une base de données SQL.</p>
+          <ul class="tags"><li>Node.js</li><li>SQL</li><li>JavaScript</li></ul>
+          <div class="links"><a href="https://github.com" target="_blank" rel="noopener">code source ↗</a><a href="https://github.com" target="_blank" rel="noopener">démo ↗</a></div>
+        </article>
+        <article class="card" data-cat="data">
+          <div class="card-top"><span>~/projets/base-scolaire</span><span class="cat">données</span></div>
+          <h3>Base scolaire</h3>
+          <p>Application Java connectée à une base SQL pour gérer étudiants et notes : modélisation, requêtes et jointures.</p>
+          <ul class="tags"><li>Java</li><li>SQL</li></ul>
+          <div class="links"><a href="https://github.com" target="_blank" rel="noopener">code source ↗</a><a href="https://github.com" target="_blank" rel="noopener">scripts SQL ↗</a></div>
+        </article>
+        <article class="card" data-cat="systeme">
+          <div class="card-top"><span>~/projets/admin-linux</span><span class="cat">système</span></div>
+          <h3>Administration Linux</h3>
+          <p>Mise en place d'un serveur Linux : gestion des utilisateurs et des droits, services et sauvegardes automatisées.</p>
+          <ul class="tags"><li>Linux</li><li>Services</li><li>Sauvegardes</li></ul>
+          <div class="links"><a href="https://github.com" target="_blank" rel="noopener">code source ↗</a></div>
+        </article>
+        <article class="card" data-cat="reseau">
+          <div class="card-top"><span>~/projets/maquette-reseau</span><span class="cat">réseau</span></div>
+          <h3>Maquette réseau</h3>
+          <p>Maquette de réseau d'entreprise : adressage IP, sous-réseaux, routage et services sous Linux, avec schémas et configurations.</p>
+          <ul class="tags"><li>Linux</li><li>Adressage IP</li><li>Routage</li></ul>
+          <div class="links"><a href="https://github.com" target="_blank" rel="noopener">schémas &amp; configs ↗</a></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="parcours">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="label">/* parcours */</span>
+        <h2>D'où je viens, <em>où je vais</em></h2>
+      </div>
+      <ol class="timeline">
+        <li>
+          <time>En cours · 2ᵉ année</time>
+          <div>
+            <h3>Système, Réseau et Informatique</h3>
+            <div class="where">ESIG Global Success · Lomé, Togo</div>
+            <p>Formation en réseaux, administration de systèmes Linux, bases de données SQL et programmation (Java, JavaScript).</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap contact">
+      <div>
+        <span class="label">/* contact */</span>
+        <h2>Un stage, un projet, <em>une question ?</em></h2>
+      </div>
+      <div class="contact-box">
+        <div class="mail">
+          <code id="email">prenom.nom@email.fr</code>
+          <button type="button" id="copy">copier</button>
+        </div>
+        <div class="socials">
+          <a href="https://github.com" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+        <p class="mono" id="copied" role="status" aria-live="polite" style="font-size:.75rem;color:var(--muted);min-height:1.2em"></p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="year">2026</span> Yanis Allyn</span>
+    <span>Écrit à la main en HTML, CSS et un peu de JavaScript</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
